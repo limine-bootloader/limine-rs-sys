@@ -8,4 +8,4 @@ repository = "https://github.com/limine-bootloader/limine-rs-sys"
 build = "build.rs"
 
 [build-dependencies]
-bindgen = "*"
+bindgen = "0.64.0"
