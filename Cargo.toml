@@ -1,0 +1,11 @@
+[package]
+name = "limine-sys"
+description = "Rust sys bindings for the Limine boot protocol"
+version = "0.1.0"
+authors = ["mintsuki <mintsuki@protonmail.com>"]
+license = "BSD-2-Clause"
+repository = "https://github.com/limine-bootloader/limine-rs-sys"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "*"
