@@ -6,6 +6,7 @@ use std::path::PathBuf;
 fn main() {
     let bindings = bindgen::Builder::default()
         .header("limine.h")
+        .use_core()
         .generate()
         .expect("Unable to generate bindings");
 
